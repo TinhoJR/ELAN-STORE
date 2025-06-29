@@ -166,16 +166,26 @@ p{
 }
 
 .productFilter-btn{
-    width: 170px;
+    width: 190px;
     height: 45px;
     border-radius: 10px;
     border: none;
     background-color: #ccc;
     font-weight: 500;
+    color: black;
+}
+
+.productFilter-btn.active{
+    background-color: black;
+    color: white;
 }
 
 .product-intro h3{
     padding: 20px 0px;
+}
+
+.product-filterContent{
+    display: none;
 }
 
 .product-List div img{
@@ -192,6 +202,25 @@ p{
 
 .product-List h6{
     font-weight: 600;
+}
+
+.view-all{
+    text-align: center;
+    justify-content: center;
+    padding: 40px 0px 30px 0px;
+}
+
+.view-all a{
+    background-color: #ccc;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.view-all a:hover{
+    background-color: whitesmoke;
 }
 
 /* PRODUCT SECTION */
@@ -266,12 +295,15 @@ p{
     }
 
     .productFilter-btn-wrapper{
-        columns: 2;
-       
+        columns: 2;  
     }
 
     .productFilter-btn{
         margin-bottom: 15px;
+    }
+
+    .product-List h5{
+        font-size: 15px;
     }
 
     /* PRODUCT SECTION */

@@ -146,18 +146,19 @@
     <section class="product-section">
         <div>
             <div class="product-intro">
-              <h3>New Arrivals</h3>
+              <h3>Shop the classics</h3>
               <div class="productFilter-btn-wrapper">
-                <button class="productFilter-btn">Men's Fashion</button>
-                <button class="productFilter-btn">Men's Fashion</button>
-                <button class="productFilter-btn">Men's Fashion</button>
-                <button class="productFilter-btn">Men's Fashion</button>
+                <button class="productFilter-btn" data-product-filter="men-product" id="default-filter">Men's Fashion</button>
+                <button class="productFilter-btn" data-product-filter="women-product">Women's Fashion</button>
+                <button class="productFilter-btn" data-product-filter="new-product">New Arrivals</button>
+                <button class="productFilter-btn" data-product-filter="all-product">Men's Fashion</button>
                </div>
             </div>
 
             <div>
+              <div class="product-filterContent" id="men-product">
 
-                <div class="swiper mySwiper">
+                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide product-List">
                        <div>
@@ -221,7 +222,83 @@
                   </div>
                 </div>
 
+                <div class="view-all">
+                    <a href="#">View All</a>
+                </div>
 
+              </div>
+
+              <div class="product-filterContent" id="women-product">
+
+                 <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide product-List">
+                       <div>
+                        <img src="ASSETS/IMAGES/sneaker-female1.jpg">
+                       </div>
+
+                       <h5>Nike Zoom Vomero 5</h5>
+                       <p>Women's Shoe</p>
+                       <h6>$170</h6>
+                    </div>
+
+                    <div class="swiper-slide product-List">
+                       <div>
+                        <img src="ASSETS/IMAGES/slides-female3.jpg">
+                       </div>
+
+                       <h5>Nike Zoom Vomero 5</h5>
+                       <p>Women's Shoe</p>
+                       <h6>$170</h6>
+                    </div>
+
+                    <div class="swiper-slide product-List">
+                       <div>
+                        <img src="ASSETS/IMAGES/sneaker-female3.jpg">
+                       </div>
+
+                       <h5>Nike Zoom Vomero 5</h5>
+                       <p>Women's Shoe</p>
+                       <h6>$170</h6>
+                    </div>
+
+                    <div class="swiper-slide product-List">
+                       <div>
+                        <img src="ASSETS/IMAGES/slides-female7.jpg">
+                       </div>
+
+                       <h5>Nike Zoom Vomero 5</h5>
+                       <p>Women's Shoe</p>
+                       <h6>$170</h6>
+                    </div>
+
+                    <div class="swiper-slide product-List">
+                       <div>
+                        <img src="ASSETS/IMAGES/slides-female5.jpg">
+                       </div>
+
+                       <h5>Nike Zoom Vomero 5</h5>
+                       <p>Women's Shoe</p>
+                       <h6>$170</h6>
+                    </div>
+
+                    <div class="swiper-slide product-List">
+                       <div>
+                        <img src="ASSETS/IMAGES/slides-female6.jpg">
+                       </div>
+
+                       <h5>Nike Zoom Vomero 5</h5>
+                       <p>Women's Shoe</p>
+                       <h6>$170</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="view-all">
+                    <a href="#">View All</a>
+                </div>
+
+              </div>
             </div>
 
         </div>
@@ -236,6 +313,9 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script src="ASSETS/JS/Main.js"></script>
+<script src="ASSETS/JS/product-filter.js"></script>
+
+
 
 </body>
 
