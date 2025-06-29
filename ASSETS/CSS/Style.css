@@ -59,27 +59,27 @@ nav{
 .bar-wrapper{
     display: inline-block;
     cursor: pointer;
-    border: 1px solid #ccc;
-    padding: 2px 4px !important;
     background-color: transparent;
+    border: none;
+  
 }
 
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 4px;
+    width: 32px;
+    height: 3px;
     background-color: #333;
-    margin: 6px 0px;
+    margin: 3px 0px;
     transition: 0.5s;
 }
 
 .change .bar1 {
-    transform: translate(0,10px) rotate(-45deg);
+    transform: translate(0,6px) rotate(-45deg);
 }
 .change .bar2 {
     opacity: 0;
 }
 .change .bar3 {
-    transform: translate(0,-10px) rotate(45deg);
+    transform: translate(0,-6px) rotate(45deg);
 }
 
 #collapsibleNavbar{
@@ -174,6 +174,26 @@ p{
 
     #mobile-nav{
         display: inherit;
+    }
+
+    .mobileIcons i{
+        font-size: 19px;   
+    }
+
+    .mobileIcons{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 4px;
+    }
+
+    .mobileIcons:hover{
+        background-color: #ccc;
     }
 
     /* NAV SECTION */
