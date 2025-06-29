@@ -155,6 +155,47 @@ p{
 
 /* HERO SECTION ENDS */
 
+/* PRODUCT SECTION */
+
+.product-section{
+    padding: 60px 80px;
+}
+
+.product-intro{
+    padding: 50px 0px;
+}
+
+.productFilter-btn{
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ccc;
+    font-weight: 500;
+}
+
+.product-intro h3{
+    padding: 20px 0px;
+}
+
+.product-List div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-List h5{
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-List h6{
+    font-weight: 600;
+}
+
+/* PRODUCT SECTION */
+
 /* HOME ENDS */
 
 
@@ -216,8 +257,24 @@ p{
         margin-bottom: 15px;
     }
 
-
     /* HERO SECTION */
+
+    /* PRODUCT SECTION */
+
+    .product-section{
+        padding: 40px 20px;
+    }
+
+    .productFilter-btn-wrapper{
+        columns: 2;
+       
+    }
+
+    .productFilter-btn{
+        margin-bottom: 15px;
+    }
+
+    /* PRODUCT SECTION */
 
     /* HOME PAGE */
 
