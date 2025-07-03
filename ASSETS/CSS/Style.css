@@ -155,7 +155,7 @@ p{
 
 /* HERO SECTION ENDS */
 
-/* PRODUCT SECTION */
+/* PRODUCT SECTION STARTS */
 
 .product-section{
     padding: 60px 80px;
@@ -223,9 +223,9 @@ p{
     background-color: whitesmoke;
 }
 
-/* PRODUCT SECTION */
+/* PRODUCT SECTION ENDS */
 
-/* COLLECTION SECTION  */
+/* COLLECTION SECTION STARTS */
 
 .collection-section{
     padding: 40px 120px;
@@ -268,13 +268,23 @@ p{
     margin-top: 40px;
 }
 
+/* COLLECTION SECTION ENDS  */
+
+/* BEST SELLER SECTION STARTS */
+
+.bestSeller-section{
+    padding: 30px 80px;
+}
+
+.bestSeller-image img{
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
 
 
 
-
-
-
-/*  */
+/* BEST SELLER SECTION ENDS */
 
 /* HOME ENDS */
 
@@ -375,6 +385,15 @@ p{
 
 
     /* COLLECTION SECTION */
+
+    /*  */
+
+    .bestSeller-section{
+        padding: 40px 20px;
+    }
+    
+
+    /*  */
 
     /* HOME PAGE */
 
