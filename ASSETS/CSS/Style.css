@@ -102,7 +102,7 @@ p{
 
 .hero-section{
     padding: 170px 40px 150px 50px;
-     background-image: url(../IMAGES/hero-bg1.jpg);
+    background-image: url(../IMAGES/hero-bg1.jpg);
     background-repeat: no-repeat;
     background-size: contain; 
     background-position: right;
@@ -225,6 +225,53 @@ p{
 
 /* PRODUCT SECTION */
 
+/* COLLECTION SECTION  */
+
+.collection-section{
+    padding: 40px 120px;
+}
+
+.collection-image{
+     padding: 50px 30px 50px 0px;
+}
+
+.collection-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;   
+}
+
+.collection-info p:first-child{
+    padding-top: 120px;
+}
+
+.collection-info h5{
+    padding: 15px 0px;
+    font-weight: 600;
+}
+
+.collection-info a{
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+/*  */
+
 /* HOME ENDS */
 
 
@@ -271,7 +318,7 @@ p{
     /* HERO SECTION */
 
     .hero-section{
-    padding: 70px 30px 70px 30px;
+    padding: 70px 30px 90px 30px;
     }
 
     .hero-section div p{
@@ -307,6 +354,23 @@ p{
     }
 
     /* PRODUCT SECTION */
+
+    /* COLLECTION SECTION */
+
+    .collection-section{
+        padding: 40px 20px;
+    }
+
+    .collection-image{
+     padding: 30px 0px 0px 0px;
+    }
+
+    .collection-info p:first-child{
+    padding-top: 20px;
+    }
+
+
+    /* COLLECTION SECTION */
 
     /* HOME PAGE */
 

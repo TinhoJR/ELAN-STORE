@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+
     /*
 let productFilterBtn = document.querySelectorAll(".product-filter-btn");
 
@@ -19,7 +20,9 @@ let productFilterBtn = document.querySelectorAll(".product-filter-btn");
 });
 
 document.getElementById("default-filter").click();
+
 */
+
 
 function setupProductFilter({
      buttonSelector,
