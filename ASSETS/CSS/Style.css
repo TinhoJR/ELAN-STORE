@@ -245,6 +245,10 @@ p{
     padding-top: 120px;
 }
 
+.collection-info p{
+    text-align: justify;
+}
+
 .collection-info h5{
     padding: 15px 0px;
     font-weight: 600;
