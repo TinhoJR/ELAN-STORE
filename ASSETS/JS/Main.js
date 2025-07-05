@@ -1,30 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    let menuToggler = document.querySelector(".bar-wrapper");
-    menuToggler.addEventListener("click", function() {
-        this.classList.toggle("change");
-     });
+   
+    const marqueeTrack = document.querySelector(".marquee-track")
+    const paragraph = marqueeTrack.querySelectorAll("p")
 
-      var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1.5,
-      spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 50,
-        },
-      },
-    });
+    if (paragraph.length > 0) {
+      marqueeTrack.classList.add("animate-marquee")
+    }
+  
+
+ 
+
+
+
+
+
+
 })

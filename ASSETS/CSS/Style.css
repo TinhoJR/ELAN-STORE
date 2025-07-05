@@ -229,6 +229,7 @@ p{
 
 .collection-section{
     padding: 40px 120px;
+    
 }
 
 .collection-image{
@@ -254,7 +255,8 @@ p{
     font-weight: 600;
 }
 
-.collection-info a{
+.collection-info a,
+.admessage-wrapper a{
     display: inline-block;
     width: 200px;
     height: 45px;
@@ -265,7 +267,7 @@ p{
     text-decoration: none;
     color: white;
     background-color: black;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 /* COLLECTION SECTION ENDS  */
@@ -273,13 +275,36 @@ p{
 /* BEST SELLER SECTION STARTS */
 
 .bestSeller-section{
-    padding: 30px 80px;
+    padding: 30px 80px;  
 }
 
 .bestSeller-image img{
-   width: 100%;
+   max-width: 100%;
    height: auto;
    border-radius: 10px;
+}
+
+.bestSeller-section div p{
+    color: darkred;
+    line-height: 7px;
+}
+
+.bestSeller-section div h5{
+    padding-top: 7px;
+}
+
+.admessage-wrapper{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.admessage-wrapper a:hover{
+    background-color: white;
+    color: black;
 }
 
 
@@ -288,6 +313,53 @@ p{
 
 /* HOME ENDS */
 
+
+/* PRODUCT DETAIL PAGE STARTS */
+
+.css-marquee {
+  width: 100%;
+  background: gray;
+  padding: 7px 0px; 
+  overflow: hidden;
+
+}
+
+.marquee-track p{
+    display: inline;
+    padding: 10px 10px 0px 10px;
+}
+
+.marquee-track{
+     display: inline-flex;
+     gap: 20px;
+     width: max-content;
+}
+
+.animate-marquee{
+    animation: scroll-left 15s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-duration: 30s; /* slower speed */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.adHeadlines{
+    padding: 80px 10px 50px 10px;
+    
+}
+
+
+
+/* PRODUCT DETAIL PAGE ENDS */
 
 
 
@@ -372,7 +444,7 @@ p{
     /* COLLECTION SECTION */
 
     .collection-section{
-        padding: 40px 20px;
+        padding: 40px 10px 40px 30px;
     }
 
     .collection-image{
@@ -389,7 +461,7 @@ p{
     /*  */
 
     .bestSeller-section{
-        padding: 40px 20px;
+        padding: 40px 10px 40px 30px;
     }
     
 
