@@ -24,13 +24,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function showCart() {
         let parentWrapper = document.querySelector(".parentCart-holder");
-        parentWrapper.style.display = "block"
+        parentWrapper.style.display = "block";
+        document.querySelector(".product-miniImage-mobile").style.display = "none";
         document.querySelector("body").classList.add("noscroll");
 
         let closeCart = document.querySelector(".closeCart");
         closeCart.addEventListener("click", function() {
              parentWrapper.style.display = "none";
-              document.querySelector("body").classList.remove("noscroll");
+             document.querySelector("body").classList.remove("noscroll");
+             document.querySelector(".product-miniImage-mobile").style.display = "block";
         })
     }
 
