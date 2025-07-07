@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
      })
      })
     
-
     // AD HEADLINES
 
     const marqueeTrack = document.querySelector(".marquee-track")

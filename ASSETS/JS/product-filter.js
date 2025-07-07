@@ -27,7 +27,7 @@ document.getElementById("default-filter").click();
 function setupProductFilter({
      buttonSelector,
      contentSelector,
-     dataAttr = "data-product-filter",
+     dataAttr,
      activeClass = "active",
      defaultFilterId = null,
 }) {
@@ -61,8 +61,16 @@ function setupProductFilter({
  setupProductFilter({
     buttonSelector: ".productFilter-btn",
     contentSelector: ".product-filterContent",
+    dataAttr: "data-product-filter",
     defaultFilterId: "default-filter"
  });
+
+ setupProductFilter({
+    buttonSelector: ".product-miniImage",
+    contentSelector: ".full-imageDes",
+    dataAttr: "data-image",
+    defaultFilterId: "default-Image"
+ })
 
 
 })
