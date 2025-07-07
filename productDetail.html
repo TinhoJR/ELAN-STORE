@@ -135,9 +135,10 @@
 
     </section>
 
-    <section>
+    <section class=" product-parentWrapper">
         <div class="container-fluid">
-            <div class="row gy-5">
+            <div class="single-product" data-product-id="p001">
+                <div class="row gy-5">
                 <div class="col-md-1 col-lg-1 col-12">
                     <div class="product-miniImage-wrapper">
                         <div class="product-miniImage" data-image="imageDes-one" id="default-Image">
@@ -156,13 +157,13 @@
                             <img src="ASSETS/IMAGES/sneaker-des5.jpg">
                         </div>
                         <div class="product-miniImage" data-image="imageDes-six">
-                            <img src="ASSETS/IMAGES/sneaker-des6.jpg">
+                            <img src="ASSETS/IMAGES/bestSeller-5.jpeg">
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-5 col-lg-5 col-12">
-                    <div>
+                    <div class="fullImage-wrapper">
                         <div class="full-imageDes" id="imageDes-one">
                             <img src="ASSETS/IMAGES/sneaker-des1.jpeg">
                         </div>
@@ -178,8 +179,8 @@
                         <div class="full-imageDes" id="imageDes-five">
                             <img src="ASSETS/IMAGES/sneaker-des5.jpg">
                         </div>
-                        <div class="full-imageDes" id="imageDes-six">
-                            <img src="ASSETS/IMAGES/sneaker-des6.jpg">
+                        <div class="product-img full-imageDes" id="imageDes-six">
+                            <img src="ASSETS/IMAGES/bestSeller-5.jpeg">
                         </div>
                     </div>
                 </div>
@@ -204,22 +205,86 @@
                             <img src="ASSETS/IMAGES/sneaker-des5.jpg">
                           </div>
                           <div class="product-miniImage swiper-slide" data-image="imageDes-six">
-                            <img src="ASSETS/IMAGES/sneaker-des6.jpg">
+                            <img src="ASSETS/IMAGES/bestSeller-5.jpeg">
                           </div>
                         </div>
                         </div>  
                     </div>
                 </div>
 
+                <div class="col-md-5 col-lg-5 col-12">
+                    <div>
+                        <h3 class="product-title">Nike Air Max Dn8</h3>
+                        <p class="product-category">Men's Shoes</p>
+                        <h6 class="product-price">$170</h6>
+                        <div class="sizeBtn-wapper">
+                            <button class="size-btn">40</button>
+                            <button class="size-btn">41</button>
+                            <button class="size-btn">42</button>
+                            <button class="size-btn">43</button>
+                            <button class="size-btn">44</button>
+                            <button class="size-btn">45</button>
+                        </div>
+
+                          <p class="errorMsg">Please Select a size</p>
+
+                        <button class="addTo-Bag bag-btnStyle">Add To Bag</button>
+                        <button class="fav-btnStyle">Add To Favorite</button>
+
+                        <div>
+                            <h5>Shipping</h5>
+                            <p>You'll see our shipping options at checkout.</p>
+                            <p>
+                                More Air, less bulk. The Dn8 takes our Dynamic Air system and 
+                                condenses it into a sleek, low-profile package. Powered by 
+                                eight pressurized Air tubes, it gives you a responsive sensation 
+                                with every step. Enter an unreal experience of movement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             </div>
         </div>
+
+       <div class="parentCart-holder">
+         <div class="cartInfo-wrapper">
+            <h4><i class="fa-regular fa-circle-check"></i> Added to Cart</h4>
+             <div class="closeCart"><i class="fa-regular fa-circle-xmark"></i></div>
+            <div class="shoppingCart-wrapper"></div>
+
+           <a href="#" class="viewCart-a">View Cart (<span> 5 </span>)</a>
+           <a href="#" class="viewCart-f">Favorite (<span></span>)</a>
+
+           <template class="cartItem-template">
+            <div class="cart-display cartdetail-wrapper">
+             <div class="product-img">
+             <img src="ASSETS/IMAGES/bestSeller-5.jpeg">
+            </div>
+            <div>
+                <h3 class="product-title"></h3>
+                <p class="product-category"></p>
+                <p class="product-size"></p>
+                <h6 class="product-price"></h6>
+                
+            </div>
+           </div>
+
+           </template>
+        </div>
+       </div>
+
     </section>
+
+    
 
   
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script src="ASSETS/JS/cart.js"></script>
 <script src="ASSETS/JS/Main.js"></script>
 <script src="ASSETS/JS/product-filter.js"></script> 
 
