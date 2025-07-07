@@ -7,6 +7,7 @@ html, body {
 
 body.noscroll{
     overflow: hidden;
+    z-index: 79;
 }
 
 /* NAV-SECTION STARTS */
@@ -407,7 +408,7 @@ p{
 .sizeBtn-wapper{
     columns: 2;
     column-gap: 10px;
-    margin: 20px 0px;   border-radius: 10px;
+    margin: 0px 0px 20px 0px;   border-radius: 10px;
    
 }
 
@@ -418,6 +419,7 @@ p{
     background-color: transparent;
     border: 1px solid whitesmoke;
     border-radius: 10px;
+    color: black;
 }
 
 .size-btn.active{
@@ -661,7 +663,7 @@ p{
     }
 
     .product-miniImage-mobile{
-        display: inherit;
+        display: block;
     }
 
     .product-miniImage img{
@@ -669,6 +671,10 @@ p{
         width: auto;
         height: auto !important;
        
+    }
+
+    .info-wrapper{
+        padding-left: 20PX;
     }
 
 
