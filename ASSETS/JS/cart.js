@@ -112,8 +112,22 @@ document.addEventListener("DOMContentLoaded", function() {
        })
     })
 
+    function updateCartBadge() {
+        // GET SAVED CART
+        let savedCart = JSON.parse(localStorage.getItem("elanBag")) || [];
+        // INCREASE WHEN PRODUCT QUANTITY INCREASES
+        let totalItems = savedCart.reduce((sum, item) => {
+            return sum + item.productQty;
+        }, 0)
+
+        document.querySelectorAll(".badge").forEach(badge => {
+            badge.innerHTML = totalItems;
+        })
+    }
+
    function refreshCartUI() {
     loadCart();
+    updateCartBadge();
    }
 
 

@@ -102,6 +102,20 @@ p{
     overflow-x: hidden;
 }
 
+.bag-count{
+   position: relative;
+   width: fit-content;
+}
+
+.bag-number{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 /* HERO SECTION STARTS */
 
 .hero-section{
@@ -545,6 +559,48 @@ p{
     color: red;
 }
 
+.info-wrapper h6{
+       padding-bottom: 15px;
+       font-weight: 600;
+}
+
+.delivery-info{
+    padding: 20px 0px;
+}
+
+.panel-btn{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    text-align: start;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(187, 185, 185);
+    font-size: 19px;
+}
+
+.panel-btn::after{
+    content: '\f107';
+    font-size: 16px;
+    font-family:'Font Awesome 6 Free' ;
+    font-weight: 700;
+    float: right;
+}
+
+.panel-btn.active::after{
+    content: '\f106';
+    font-size: 16px;
+    font-family:'Font Awesome 6 Free';
+    font-weight: 700;
+}
+
+.panel-detail{
+    padding: 20px 10px;
+    background-color: white;
+    display: none;
+}
+
 
 
 /*  */
@@ -586,6 +642,12 @@ p{
 
     .mobileIcons:hover{
         background-color: #ccc;
+    }
+
+    .bag-number{
+        
+         top: 7px;
+         left: 4px;
     }
 
     /* NAV SECTION */
@@ -674,7 +736,7 @@ p{
     }
 
     .info-wrapper{
-        padding-left: 20PX;
+        padding-left: 20px;
     }
 
 

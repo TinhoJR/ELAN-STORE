@@ -22,7 +22,7 @@
 
 <body>
 
-    <section>
+   <section>
         <nav class="navbar navbar-expand-sm fixed-top">
             <div class="container-fluid" id="mobile-nav">
                 <a class="navbar-brand" href="#">
@@ -32,7 +32,7 @@
                 <div class="">
                 <span class="mobileIcons"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <span class="mobileIcons"><i class="fa-solid fa-user"></i></span>
-                <span class="mobileIcons"><i class="fa-solid fa-bag-shopping"></i></span>
+                <span class="mobileIcons bag-count"><i class="fa-solid fa-bag-shopping"></i><span class="badge bag-number"> </span></span>
                  
                 <button class="bar-wrapper" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <div class="bar1"></div>
@@ -112,7 +112,7 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </form>
                     <div><i class="fa-regular fa-heart"></i></div>
-                    <div><i class="fa-solid fa-bag-shopping"></i></div>
+                    <div class="bag-count"><i class="fa-solid fa-bag-shopping"></i><span class="badge bag-number"> </span></div>
                 </div>
             </div>
         </nav>
@@ -232,7 +232,7 @@
                         <button class="addTo-Bag bag-btnStyle">Add To Bag</button>
                         <button class="fav-btnStyle">Add To Favorite</button>
 
-                        <div>
+                        <div class="delivery-info">
                             <h5>Shipping</h5>
                             <p>You'll see our shipping options at checkout.</p>
                             <p>
@@ -241,6 +241,21 @@
                                 eight pressurized Air tubes, it gives you a responsive sensation 
                                 with every step. Enter an unreal experience of movement.
                             </p>
+
+                            <div>
+
+                                <button class="panel-btn">Shippings & Returns</button>
+                                <div class="panel-detail"><p>Free standard shipping on orders $50+ and 
+                                    free 60-day returns for Nike Members. Learn more. 
+                                    Return policy exclusions apply.
+                                </p></div>
+
+                                 <button class="panel-btn">Shippings & Returns</button>
+                                <div class="panel-detail"><p>Free standard shipping on orders $50+ and 
+                                    free 60-day returns for Nike Members. Learn more. 
+                                    Return policy exclusions apply.
+                                </p></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -255,7 +270,7 @@
              <div class="closeCart"><i class="fa-regular fa-circle-xmark"></i></div>
             <div class="shoppingCart-wrapper"></div>
 
-           <a href="#" class="viewCart-a">View Cart (<span> 5 </span>)</a>
+           <a href="#" class="viewCart-a">View Cart (<span class="badge">  </span>)</a>
            <a href="#" class="viewCart-f">Favorite (<span></span>)</a>
 
            <template class="cartItem-template">
@@ -288,6 +303,7 @@
 <script src="ASSETS/JS/cart.js"></script>
 <script src="ASSETS/JS/Main.js"></script>
 <script src="ASSETS/JS/product-filter.js"></script> 
+<script src="ASSETS/JS/accordionFunc.js"></script>
 
 </body>
 
